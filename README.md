@@ -36,9 +36,10 @@ This repository combines Whisper ASR capabilities with Voice Activity Detection 
 Whisper, WhisperX and NeMo parameters are coded into diarize.py and helpers.py, I will add the CLI arguments to change them later
 ## Installation
 `FFMPEG` and `Cython` are needed as prerequisites to install the requirements
-Place FFMPEG.exe in the root directory
-Use Python 3.10, 3.11 does not currently work with NeMo (as of 2024-01-10)
-If you installed CUDA 12 instead of 11, you must rename 'cublas64_12.dll' to 'cublas64_11.dll'
+
+- Place FFMPEG.exe in the root directory
+- Use Python 3.10, 3.11 does not currently work with NeMo (as of 2024-01-10)
+- If you installed CUDA 12 instead of 11, you must rename 'cublas64_12.dll' to 'cublas64_11.dll'
 ```
 pip install cython
 ```
