@@ -90,7 +90,7 @@ else:
 
 logging.info("Starting Nemo process with vocal_target: ", vocal_target)
 nemo_process = subprocess.Popen(
-    ["python3", "nemo_process.py", "-a", vocal_target, "--device", args.device],
+    ["py", "nemo_process.py", "-a", vocal_target, "--device", args.device],
 )
 # Transcribe the audio file
 if args.batch_size != 0:
